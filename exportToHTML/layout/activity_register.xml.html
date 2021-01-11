@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>activity_register.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bbbbbb;}
+.s1 { color: #d19a66;}
+.s2 { color: #89ca78;}
+.s3 { color: #bbbbbb;}
+.s4 { color: #ef596f;}
+</style>
+</head>
+<body bgcolor="#282c34">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_register.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;</span><span class="s4">androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;@drawable/bg2&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.Register&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/app_name&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/almendra_sc&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;DEMO APP&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#E8E3B6&quot;</span>
+        <span class="s1">android:textColorHighlight</span><span class="s2">=&quot;#D2D6E8&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;36sp&quot;</span>
+        <span class="s1">android:typeface</span><span class="s2">=&quot;monospace&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.498&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.051&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">EditText</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/fullname&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+        <span class="s1">android:hint</span><span class="s2">=&quot;Full Name&quot;</span>
+        <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#C62A2A&quot;</span>
+        <span class="s1">android:textColorHint</span><span class="s2">=&quot;#151717&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;20dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.0&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.174&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">EditText</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/emailregister_text&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+        <span class="s1">android:hint</span><span class="s2">=&quot;Email ID&quot;</span>
+        <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#C62A2A&quot;</span>
+        <span class="s1">android:textColorHint</span><span class="s2">=&quot;#151717&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;20dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.0&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.455&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">EditText</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/passwordregister_text&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:hint</span><span class="s2">=&quot;Passowrd&quot;</span>
+        <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#C62A2A&quot;</span>
+        <span class="s1">android:textColorHint</span><span class="s2">=&quot;#151717&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;20dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.0&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.362&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">EditText</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/phone&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+        <span class="s1">android:hint</span><span class="s2">=&quot;Phone Number&quot;</span>
+        <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#C62A2A&quot;</span>
+        <span class="s1">android:textColorHint</span><span class="s2">=&quot;#151717&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;20dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.0&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.266&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/Register_button&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;REGISTER&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.0&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/emailregister_text&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.094&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/newhere_text&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Already registered? Please Login here&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#A810C1&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/Register_button&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.14&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">ProgressBar</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/progressBar&quot;</span>
+        <span class="s1">style</span><span class="s2">=&quot;?android:attr/progressBarStyle&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:visibility</span><span class="s2">=&quot;invisible&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.498&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/newhere_text&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.27&quot; </span><span class="s0">/&gt;</span>
+
+
+<span class="s0">&lt;/</span><span class="s4">androidx.constraintlayout.widget.ConstraintLayout</span><span class="s0">&gt;</span></pre>
+</body>
+</html>

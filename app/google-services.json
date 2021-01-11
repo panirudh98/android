@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "870185353914",
+    "project_id": "innovit-task",
+    "storage_bucket": "innovit-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870185353914:android:7959957450bf266fe93883",
+        "android_client_info": {
+          "package_name": "com.example.innovit_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870185353914-5p3cmc0q3q1vkth240lfddsok7ffci9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWrzQosgz70aN8usGw_nM7fEHLNfYXvLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870185353914-5p3cmc0q3q1vkth240lfddsok7ffci9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
