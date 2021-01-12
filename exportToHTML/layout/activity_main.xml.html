@@ -32,25 +32,106 @@ activity_main.xml</font>
         <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
         <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
         <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.497&quot;</span>
         <span class="s1">app:layout_constraintLeft_toLeftOf</span><span class="s2">=&quot;parent&quot;</span>
         <span class="s1">app:layout_constraintRight_toRightOf</span><span class="s2">=&quot;parent&quot;</span>
         <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
         <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
-        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.351&quot; </span><span class="s0">/&gt;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.022&quot; </span><span class="s0">/&gt;</span>
 
     <span class="s0">&lt;</span><span class="s4">Button</span>
         <span class="s1">android:id</span><span class="s2">=&quot;@+id/logout_button&quot;</span>
         <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
         <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:onClick</span><span class="s2">=&quot;logout&quot;</span>
         <span class="s1">android:rotationX</span><span class="s2">=&quot;35&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;LOGOUT!&quot;</span>
         <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
         <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
         <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.498&quot;</span>
         <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
         <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
-        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.543&quot;</span>
-        <span class="s1">android:text</span><span class="s2">=&quot;LOGOUT!&quot;</span>
-        <span class="s1">android:onClick</span><span class="s2">=&quot;logout&quot;</span><span class="s0">/&gt;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.103&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/choose_button&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Choose File&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.056&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.21&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">EditText</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/imagename_text&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;180dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;50dp&quot;</span>
+        <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+        <span class="s1">android:hint</span><span class="s2">=&quot;Image Name&quot;</span>
+        <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;1.0&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.209&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/upload_button&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;UPLOAD!&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.207&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.954&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/showuploads_text&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;107dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;30dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Show Uploads&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.631&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.944&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;200dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;150dp&quot;</span>
+        <span class="s1">android:visibility</span><span class="s2">=&quot;visible&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.498&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.472&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;</span><span class="s4">ProgressBar</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/progressBar2&quot;</span>
+        <span class="s1">style</span><span class="s2">=&quot;?android:attr/progressBarStyleHorizontal&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.471&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.841&quot; </span><span class="s0">/&gt;</span>
 
 <span class="s0">&lt;/</span><span class="s4">androidx.constraintlayout.widget.ConstraintLayout</span><span class="s0">&gt;</span></pre>
 </body>
